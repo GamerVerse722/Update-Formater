@@ -1,19 +1,19 @@
-## Forge Updated 
+## Forge Updated
 - changed forge verion to 47.3.7
 
-## Changes 
+## Changes
 - blacklisted explosives from Carryon
 - migration recipes to CraftTweaker
 - proper setting of create automation datapack
 - recipes changes
 - removed old config files
 
-## Shader Changes (Glowing Ores) 
+## Shader Changes (Glowing Ores)
 
-## Fixes 
+## Fixes
 - fixed crash with jei and refined storage
 
-## Mods Removed 
+## Mods Removed
 - Advance Chimneys
 - All The Trims
 - Bartering Station [Forge & Fabric]
@@ -64,18 +64,18 @@
 - Wooden Hopper
 - Wooden Shears
 
-## Shader Added 
+## Shader Added
 - BSL Shaders
 
-## Shaders Updated 
+## Shaders Updated
 - Complementary Shaders 
 - Super Duper Vanilla Shaders
 
-## Resource Pack removed 
+## Resource Pack removed
 - Refined Storage Jappafied
 - Tom's Create Storage
 
-## Resource Pack Added 
+## Resource Pack Added
 - Mekanism CTM w/ Fusion
 - Midnighttigger's Default Connected Textures
 - xali's Enchanted Book
@@ -83,12 +83,12 @@
 - xali's Potions
 - xali's Potions 
 
-## Resource Pack Update 
+## Resource Pack Update
 - Create: ComputerCraft (CC: Tweaked)
 - Fresh Animations
 - More Mob Variants x Fresh Animations
 
-## Mods Added 
+## Mods Added
 - AEInfinityBooster
 - AmbientSounds 6
 - Applied Energistics 2
@@ -135,15 +135,12 @@
 - Structure Essentials[Forge/Fabric]
 - WorldEdit
 
-## Mods Updated 
+## Mods Updated
 - Advanced Netherite (Forge / NeoForge)
 - Advanced Peripherals
 - Alex's Cave
 - Amendments
-- Applied Energistics 2
-- Aquaculture 2
 - Balm (Forge Edition)
-- Bookshelf
 - Botarium
 - CC: Tweaked
 - Caelus API (Forge/NeoForge)
@@ -154,10 +151,8 @@
 - Clumps
 - Collective
 - Connectivity[Forge/Fabric]
-- CraftTweaker
 - Crafting Tweaker
 - Crafting Tweaks
-- Create Big Cannons
 - Create Crafts & Additions
 - Create Deco
 - Create Encased
@@ -167,7 +162,6 @@
 - Create Utilities (Fabric/Forge)
 - Create: Connected
 - Create: Copycats+
-- Create: Design n' Decor
 - Create: Diesel Generators
 - Create: Dreams & Desires
 - Create: Framed
@@ -183,7 +177,6 @@
 - Customizable Elytra
 - Customizable Player Models
 - Customizable Player Models Simple Voice Chat compact
-- Dynamic FPS
 - ESSENTIAL Mod
 - Elytra Slot (Fabric/Forge/Quilt)
 - Embeddium
@@ -203,11 +196,9 @@
 - FTB Teams (Forge)
 - FTB Ultimine (Forge)
 - Farsight [Forge/Neo]
-- Fast IP Ping
 - Fast Leaf Decay
 - Flux Networks
 - FramedBlocks
-- Framework
 - GeckoLib
 - Generator Galore
 - Illager Invasion [Forge & Fabric]
@@ -219,7 +210,6 @@
 - JourneyMap Integration
 - Just Enough Item (JEI)
 - Just Enough Items (JEI)
-- Just Enough Mekanism Multiblocks
 - Kotlin for Forge
 - KubeJS
 - L_Ender 's Cataclysm
@@ -233,24 +223,18 @@
 - Macaw's Fences and Walls
 - Macaw's Furnitures
 - Macaw's Roofs
-- Mekanism
-- Mekanism Generators
 - MmmMmmMmmMmm (Target Dummy)
 - Model Gap Fix
-- ModernFix
 - Moonlight Lib
 - More Mob Variants
 - Neruina 
 - Oculus
-- Packet Fixer
-- Passive Skill Tree
 - Pehkui
 - Placebo
 - PolyLib
 - Polymorph (Fabric/Forge/Quilt)
 - Puzzles Lib [Forge & Fabric]
 - Rechiseled
-- Refined Polymorphism
 - Remove Reloading Screen
 - Repurposed Structures (Neoforge/Forge)
 - Resourceful Lib
@@ -258,7 +242,6 @@
 - Searchables
 - Simple Planes (Forge)
 - Simple Voice Chat
-- Simple Voice Radio
 - Sophisticated Backpacks
 - Sophisticated Core
 - Sophisticated Storage
@@ -270,7 +253,6 @@
 - TerraBlender (Forge)
 - The Aether
 - The Twilight Forest
-- Tom's Simple Storage Mod
 - Villager Names
 - ViveCraft Compact
 - ViveCraft Compat

@@ -23,7 +23,7 @@ public class Formater {
     public void format() {
         try {
             this.parse();
-
+            this.filter();
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -48,6 +48,37 @@ public class Formater {
         myReader.close();
     }
 
+    private void filter() {
+        if (this.linkedHashMap.containsKey("Mods Removed")) {
+            if (this.linkedHashMap.containsKey("Mods Updated")) {
+                TreeSet<String> removedMods = this.linkedHashMap.get("Mods Removed");
+                TreeSet<String> updatedMods = this.linkedHashMap.get("Mods Updated");
+
+                for (String mod : removedMods) {
+                    updatedMods.remove(mod);
+                }
+            }
+            if (this.linkedHashMap.containsKey("Mods Added")) {
+                TreeSet<String> removedMods = this.linkedHashMap.get("Mods Removed");
+                TreeSet<String> addedMods = this.linkedHashMap.get("Mods Added");
+
+                for (String mod : removedMods) {
+                    addedMods.remove(mod);
+                }
+            }
+        }
+        if (this.linkedHashMap.containsKey("Mods Added")) {
+            if (this.linkedHashMap.containsKey("Mods Updated")) {
+                TreeSet<String> addedMods = this.linkedHashMap.get("Mods Added");
+                TreeSet<String> updatedMods = this.linkedHashMap.get("Mods Updated");
+
+                for (String mod : addedMods) {
+                    updatedMods.remove(mod);
+                }
+            }
+        }
+    }
+
     public void writeToJSON(File outputLocation) {
         ObjectMapper mapper = new ObjectMapper();
         try {
@@ -65,7 +96,7 @@ public class Formater {
         StringBuilder finalResult = new StringBuilder();
         for (String section : this.linkedHashMap.keySet()) {
             System.out.println(section);
-            finalResult.append(MessageFormat.format("## {0} \n", section));
+            finalResult.append(MessageFormat.format("## {0}\n", section));
             for (String mod : this.linkedHashMap.get(section)) {
                 finalResult.append(MessageFormat.format("- {0}\n", mod));
             }
